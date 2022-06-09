@@ -9,8 +9,7 @@ public class MapExercise {
         HashMap<String, String> map = new HashMap<>();
 
         map.put("Diana", "Muresan");
-        map.put("George", "Muresan");
-
+        map.put("George", "Cosbuc");
         System.out.println(map);
 
         System.out.println(map.get("Diana"));
@@ -18,14 +17,11 @@ public class MapExercise {
         map.remove("George");
         System.out.println(map);
 
-        map.put("Mihai","Eminescu");
+        map.put("Mihai", "Eminescu");
 
         Set<String> keys = map.keySet();
         System.out.println(keys);
 
         System.out.println(map.values());
-
-
-
     }
 }

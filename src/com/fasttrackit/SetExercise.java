@@ -5,7 +5,6 @@ import java.util.Set;
 
 public class SetExercise {
     public static void main(String[] args) {
-
         Set<Long> set = new HashSet<>();
 
         set.add(3L);
@@ -15,9 +14,8 @@ public class SetExercise {
 
         System.out.println(set);
 
-        for (Long l: set){
+        for (Long l : set) {
             System.out.println(l);
         }
-
     }
 }

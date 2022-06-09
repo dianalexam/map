@@ -14,11 +14,10 @@ public class ListExercise {
         System.out.println(list);
 
         list.remove(2);
-        list.remove(new Integer(2));
         System.out.println(list);
 
         System.out.println(list.size());
 
-        System.out.println(list.get(0));
+        System.out.println(list.get(1));
     }
 }
